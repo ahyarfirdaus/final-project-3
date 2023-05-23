@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+.navbar-brand {
+  width: 75px;
+  height: 86px;
+  background: rgba(2, 14, 53, 1);
+}
+#grid-style {
+  width: 75px;
+  height: 2px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+#brand-img {
+  margin: 15px;
+}
+.navbar-nav {
+  margin-left: 260px;
+  margin-right: 0px;
+}
+.navbar-nav li {
+  margin-left: 20px;
+}
+#contact-us {
+  /* padding-left: 50px; */
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  text-align: center;
+}
+
+/* Section A */
+#left-side-A h1 {
+  /* margin-top: 80px; */
+  color: rgba(2, 14, 53, 1);
+  font-family: Basic;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#right-side-A {
+  margin-top: 32px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+/* Section D  */
+#left-side-D h1 {
+  color: rgba(2, 14, 53, 1);
+  font-family: Basic;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#left-side-D h1 b {
+  color: rgba(231, 53, 135, 1);
+}
+#right-side-D {
+  margin: auto;
+}
+input {
+  width: auto;
+}
+#exampleInputMessage1 {
+  height: 150px;
+}
+
+.container-fluid {
+  background: rgba(2, 14, 53, 1);
+  margin-top: 30px;
+}
+p {
+  margin-left: 40px;
+  font-family: Basic;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  /* color:  rgba(255, 255, 255, 1); */
+  color: #ffff;
+}
