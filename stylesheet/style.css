@@ -146,11 +146,13 @@
   height: 2392px;
   left: 0px;
   top: 1449px; */
-  background: linear-gradient(to bottom,
-      #ffffff 0%,
-      #ffffff 58%,
-      #020e35 58%,
-      #020e35 100%);
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 58%,
+    #020e35 58%,
+    #020e35 100%
+  );
 }
 .ourvaluable {
   /* position: absolute;
@@ -286,28 +288,28 @@
   line-height: 50.33px;
   margin-bottom: 4rem;
 }
-.ourwork-container h4{
+.ourwork-container h4 {
   font-size: 30px;
   font-weight: 400;
   line-height: 37.75px;
   margin-bottom: 16px;
 }
-.ourwork-container h6{
+.ourwork-container h6 {
   font-size: 15px;
   font-weight: 400;
   line-height: 18.87px;
   letter-spacing: 3px;
   margin-bottom: 49px;
 }
-.ourwork-container p{
+.ourwork-container p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20.13px;
 }
-.ourwork-container .button{
+.ourwork-container .button {
   text-align: center;
 }
-.ourwork-container .btn{
+.ourwork-container .btn {
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: #ffffff;
   padding: 12px 32.5px 13px 32.5px;
@@ -376,4 +378,3 @@ footer {
   line-height: 15px;
   padding-top: 5px;
 }
->>>>>>> 0a796635529bb60af21561a1f9a2a08e4d8baf53
