@@ -102,7 +102,7 @@
   left: -141px;
   top: 722px;
   border-radius: 50%;
-  background: #f0f3fa;
+  /* background: #f0f3fa; */
 }
 .aboutus {
   position: absolute;
@@ -245,4 +245,9 @@
   height: 30px;
 }
 
-
+#coba {
+  background-color: gray;
+  /* width: auto; */
+  height: 20px;
+  text-align: center;
+}
