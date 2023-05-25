@@ -171,6 +171,7 @@
 }
 .card-container {
   padding: 12px 0;
+  /* margin-left: 20px; */
 }
 .appdev-card {
   background: #fdf8e3;
@@ -184,9 +185,10 @@
 .bitmap {
   width: 319px;
   height: 284px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+  /* align-items: center; */
 }
 .title-card {
   /* width: 337px; */
