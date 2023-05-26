@@ -35,8 +35,7 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -108,8 +107,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                  "
-                >
+                  ">
                   <button class="btn-readmore">READ MORE</button>
                 </div>
               </div>
@@ -126,8 +124,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                  "
-                >
+                  ">
                   <button class="btn-readmore">READ MORE</button>
                 </div>
               </div>
@@ -144,8 +141,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                  "
-                >
+                  ">
                   <button class="btn-readmore">READ MORE</button>
                 </div>
               </div>
@@ -156,8 +152,7 @@
                   display: flex;
                   align-items: center;
                   justify-content: center;
-                "
-              >
+                ">
                 <button class="btn-next">
                   <!-- Icon Chevron Right -->
                   <svg
@@ -167,8 +162,7 @@
                     fill="currentColor"
                     class="bi bi-chevron-right"
                     viewBox="0 0 16 16"
-                    color="white"
-                  >
+                    color="white">
                     <path
                       fill-rule="evenodd"
                       d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
@@ -267,45 +261,26 @@
             <h1>We'd love to <b>hear</b> from you!</h1>
           </div>
           <div class="col" id="right-side-D">
-            <form>
+            <form action="https://formspree.io/f/xeqwwrkp" method="POST">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   >Your email address</label
                 >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  value=""
-                  aria-describedby="emailHelp"
-                  placeholder="something@website.com"
-                />
+                <input type="email" name="email" class="form-control" id="exampleInputEmail1" value="" aria-describedby="emailHelp" placeholder="something@website.com"/>
               </div>
 
               <div class="mb-3">
                 <label for="exampleInputSubject1" class="form-label"
                   >Subject</label
                 >
-                <input
-                  type="subject"
-                  class="form-control"
-                  id="exampleInputSubject1"
-                  value=""
-                  placeholder="Question about your article"
-                />
+                <input type="subject" name="subject" class="form-control" id="exampleInputSubject1" value="" placeholder="Question about your article"/>
               </div>
 
               <div class="md-3">
                 <label for="exampleInputMessage1">Message</label>
-                <input
-                  type="message"
-                  class="form-control"
-                  id="exampleInputMessage1"
-                  value=""
-                  placeholder="Your message starts with…"
-                />
+                <input type="message" name="message" class="form-control" id="exampleInputMessage1" value="" placeholder="Your message starts with…"/>
               </div>
-              <button type="submit" class="btn">Send a Message</button>
+              <button type="submit" id="btn-submit" class="btn">Send a Message</button>
             </form>
           </div>
         </div>
